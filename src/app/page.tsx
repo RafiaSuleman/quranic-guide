@@ -1,5 +1,3 @@
-
-
 import SocialLinks from "@/components/SocialLinks";
 import HeroTexts from "@/components/HeroTexts";
 import HeroImage from "@/components/HeroImage";
@@ -10,8 +8,8 @@ import FramerWrapper from "@/components/FramerWrapper";
 export const siteConfig = {
   name: "Qari Imtyaz",
   description: "I am a qari",
-  ogImage: "https://quranic-guide.vercel.app/",
-  url: "https://mdTaquiImam.vercel.app",
+  ogImage: "https://mdTaquiImam.vercel.app/og-image.png",
+  url: "https://quranic-guide.vercel.app/",
 }
 export default function Home() {
   return (
