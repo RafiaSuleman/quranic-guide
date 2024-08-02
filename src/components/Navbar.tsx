@@ -1,16 +1,6 @@
 "use client"
 import { cn } from "@/lib/utils";
-import {
-  Briefcase,
-  Home,
-  Layers,
-  Lightbulb,
-  PackagePlus,
-  Phone,
-  User2,
-} from "lucide-react";
 import { buttonVariants } from "./ui/button";
-
 import {
   Tooltip,
   TooltipContent,
@@ -21,16 +11,17 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import FramerWrapper from "./FramerWrapper";
 import { usePathname } from "next/navigation";
+import { MdOutlineDesignServices , MdOutlinePriceCheck , MdOutlineReviews} from "react-icons/md";
+import { FaHome ,FaRegUser , FaPhoneAlt} from "react-icons/fa";
 
 const Navbar = () => {
   const items = [
-    { name: "Home", icon: <Home /> , link: "/"},
-    { name: "about", icon: <User2 />,link: "/about" },
-    { name: "skills", icon: <Lightbulb />, link: "/skills" },
-    { name: "projects", icon: <Layers />, link: "/projects" },
-    { name: "work", icon: <Briefcase />, link: "/education" },
-    { name: "more", icon: <PackagePlus />, link: "/more" },
-    { name: "contact", icon: <Phone />, link: "/contact" },
+    { name: "Home", icon: <FaHome />, link: "/"},
+    { name: "about", icon: <FaRegUser />,link: "/about" },
+    { name: "services", icon: <MdOutlineDesignServices /> , link: "/services" },
+    { name: "pricing", icon: <MdOutlinePriceCheck />, link: "/pricing" },
+    { name: "testimonials", icon: <MdOutlineReviews />, link: "/testimonials" },
+    { name: "contact", icon:<FaPhoneAlt />, link: "/contact" },
   ];
 
   const [scrolling, setScrolling] = useState(false);
@@ -62,7 +53,7 @@ const Navbar = () => {
               <TooltipTrigger asChild>
                 <Link href={itm.link} 
                   className={cn(
-                    buttonVariants({ variant: "ghost", size: "sm" }),"hover:text-[#2f7df4]",pathname === itm.link && "text-[#2f7df4] bg-zinc-100"
+                    buttonVariants({ variant: "ghost", size: "sm" }),"hover:text-[#2f7df4] text-xl",pathname === itm.link && "text-[#2f7df4] bg-zinc-100"
                   )}
                 >
                   {itm.icon}

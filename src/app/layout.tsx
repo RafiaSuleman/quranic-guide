@@ -16,7 +16,7 @@ const rubik = Rubik({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://mdTaquiImam.vercel.app"),
+  metadataBase: new URL("https://quranic-guide.vercel.app/"),
   title: {
     default: siteConfig.name,
     template: `%s - Software Engineer`,
@@ -25,42 +25,24 @@ export const metadata: Metadata = {
 
   // added new keywords for seo
   keywords: [
-    "md",
-    "taqui",
-    "imam",
-    "Md",
-    "MD",
-    "TAQUI",
-    "Taqui",
-    "Imam",
-    "Imam",
-    "Md Taqui Imam",
-    "md taqui imam",
-    "mdtaqui",
-    "mdtaquiimam",
-    "taqui imam",
-    "Taqui Imam",
-    "Taquiimam",
-    "portfolio",
-    "web developer",
-    "web",
-    "web dev",
-    "developer",
-    "PROGRAMMER ",
-    "programmer ",
-    "MD TAQUI IMAM ",
     "website",
-    "@Taquiimam",
-    "Taquiimam",
-    "taqui developer",
+    "@qariimtiyaz",
+    "qariimtiyaz",
+    "qariwebsite",
+    "qari online quran academy",
+    "qari online",
+    "qari online USA",
+    "online Quran",
+    "qari online quran academy",
+    "online quran academy"
   ],
   authors: [
     {
-      name: "Taqui Imam",
+      name: "Qari Imtiyaz",
       url: "https://github.com/taqui-786",
     },
   ],
-  creator: "Taqui imam",
+  creator: "Rafia Khurshid",
 
   openGraph: {
     type: "website",
