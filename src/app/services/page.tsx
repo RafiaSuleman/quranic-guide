@@ -11,7 +11,7 @@ const services = () => {
                   width={900}
                   alt="nazra pic"
                 />
-      <h1 className="text-xl mt-[30px] font-bold flex justify-center align-center">Tajweed</h1>
+      <h1 className="text-xl mt-[30px] font-bold flex justify-center align-center text-green-700">Tajweed</h1>
       </div>
       <div className="border border-2 border-green-700 rounded-lg px-4 py-4 transform transition duration-500 hover:scale-110">
       <Image
@@ -20,7 +20,7 @@ const services = () => {
                   width={400}
                   alt="nazra pic"
                 />
-      <h1 className="text-xl font-bold flex justify-center align-center">Nazra</h1>
+      <h1 className="text-xl font-bold flex justify-center align-center text-green-700">Nazra</h1>
       </div>
       <div className="border border-2 border-green-700 rounded-lg px-4 py-4 transform transition duration-500 hover:scale-110">
       <Image
@@ -29,7 +29,7 @@ const services = () => {
                   width={400}
                   alt="nazra pic"
                 />
-      <h1 className="text-xl font-bold flex justify-center align-center">Memorization</h1>
+      <h1 className="text-xl font-bold flex justify-center align-center text-green-700">Memorization</h1>
       </div>
       <div className="border border-2 border-green-700 rounded-lg px-4 py-4 transform transition duration-500 hover:scale-110">
       <Image
@@ -39,7 +39,7 @@ const services = () => {
                   width={400}
                   alt="nazra pic"
                 />
-      <h1 className="text-xl font-bold flex justify-center text-center mt-4">Arabic Language</h1>
+      <h1 className="text-xl font-bold flex justify-center text-center mt-4 text-green-700">Arabic Language</h1>
       </div>
       <div className="border border-2 border-green-700 rounded-lg px-4 py-4 transform transition duration-500 hover:scale-110">
       <Image
@@ -48,7 +48,7 @@ const services = () => {
                   width={400}
                   alt="nazra pic"
                 />
-      <h1 className="text-xl font-bold flex justify-center align-center">Tafseer</h1>
+      <h1 className="text-xl font-bold flex justify-center align-center text-green-700">Tafseer</h1>
       </div>
     </div>
    

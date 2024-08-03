@@ -64,9 +64,8 @@ const pricing = (props: {
 }) => {
   return (
    
-      <div className="border border-2 gap-4  border-green-600 rounded-lg px-2 py-9">
+      <div className="border border-2 gap-4  border-green-600 rounded-lg px-2 py-5">
         <div className="text-4xl font-bold flex justify-center items-center mb-4">
-          {" "}
           {props.course}
         </div>
         <div className="border border-1  border-green-700 border-b"></div>
