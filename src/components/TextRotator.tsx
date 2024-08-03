@@ -1,27 +1,32 @@
+'use client'
 import React from 'react'
+import { TypeAnimation } from 'react-type-animation'
 
 function TextRotator() {
   return (
    
     <div
-    className="py-4  rounded-md flex flex-col justify-center items-center overflow-hidden"
+    className="py-4  rounded-md flex flex-col justify-left items-left flex-start overflow-hidden"
   >
     <div className="font-poppins text-base sm:text-2xl [text-wrap:balance] text-gray-700">
-    I am a sertified qari & offering 
-      <span
-        className="inline-flex ml-2 flex-col h-[calc(theme(fontSize.lg)*theme(lineHeight.tight))] sm:h-[calc(theme(fontSize.3xl)*theme(lineHeight.tight))] overflow-hidden"
-      >
-        <ul
-          className="block text-left font-rubik text-lg sm:text-3xl leading-tight [&_li]:block animate-text-slide"
-        >
-          <li className="text-[#2f7df4]">Nazra</li>
-          <li className="text-[#2f7df4]">Tajweed</li>
-          <li className="text-[#2f7df4]">Hifz </li>
-          <li className="text-[#2f7df4]">Tafsir</li>
-          <li className="text-[#2f7df4]">Arabic Language</li>
-         
-        </ul>
-      </span>
+    I am a Certified qari & offering 
+      <span className='flex justify-left items-left flex-start font-bold text-green-700'>
+      <TypeAnimation
+                        sequence={[
+                          "Nazra",
+                          1500,
+                          "Tajweed",
+                          1000,
+                          "Hifz",
+                          1000,
+                          "Arabic Language",
+                          1000,
+                        ]}
+                        wrapper="span"
+                        speed={50}
+                        repeat={Infinity}
+                      />
+     </span>
     </div>
   </div>
   )

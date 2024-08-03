@@ -4,6 +4,7 @@ import HeroImage from "@/components/HeroImage";
 import GithubBtn from "@/components/GithubBtn";
 import DownLoadResumeBtn from "@/components/DownLoadResumeBtn";
 import FramerWrapper from "@/components/FramerWrapper";
+import { TypeAnimation } from "react-type-animation";
 
 export const siteConfig = {
   name: "Qari Imtyaz",
