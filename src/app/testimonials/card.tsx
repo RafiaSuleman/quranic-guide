@@ -15,7 +15,7 @@ const card = (props: { description: string | number | boolean | React.ReactEleme
       <p className="md:text-lg leading-relaxed">
        {props.description}
       </p>
-      <div className="flex items-center gap-2">
+      <div className="flex items-center gap-2 text-xl font-bold">
         <p>
          {props.name}
         </p>

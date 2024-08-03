@@ -8,7 +8,7 @@ const text = () => {
     ); 
   }
   return (
-    <div className="grid md:grid-cols-2 sm:grid-cols-1 mt-9 ">
+    <div className="grid md:grid-cols-2 sm:grid-cols-1 mt-9 gap-7">
          {data.map(ncard)}
 
      </div>
