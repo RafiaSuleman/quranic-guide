@@ -9,7 +9,7 @@ function TextRotator() {
     className="py-4  rounded-md flex flex-col justify-left items-left flex-start overflow-hidden"
   >
     <div className="font-poppins text-base sm:text-2xl [text-wrap:balance] text-gray-700">
-    I am a Certified qari & offering 
+    I am a Certified Qari & Offering 
       <span className='flex justify-left items-left flex-start font-bold text-green-700'>
       <TypeAnimation
                         sequence={[
