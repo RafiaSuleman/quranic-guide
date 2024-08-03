@@ -26,14 +26,7 @@ const page = () => {
    
         <FramerWrapper y={0} x={100} >
           <p className=" font-poppins text-xl w-full text-primary max-sm:text-lg">
-          {/* As an experienced Qari and Quranic educator,
-           I am dedicated to helping students of all ages 
-           and backgrounds develop a deep, meaningful
-            connection with the Quran. My approach combines
-             traditional teaching methods with modern techniques
-              to ensure that each student receives a comprehensive 
-              and personalized learning experience. */}
-              Assalamu Alaikum! I am Qari Imtiyaz, a qualified and experienced Quran teacher dedicated to spreading the knowledge and beauty of the Quran. With 5 years of teaching experience, I have helped many students of all ages and backgrounds in their journey to understand and memorize the Quran.
+              Assalam u Alaikum! I am Qari Imtiyaz, a qualified and experienced Quran teacher dedicated to spreading the knowledge and beauty of the Quran. With 5 years of teaching experience, I have helped many students of all ages and backgrounds in their journey to understand and memorize the Quran.
           </p>
         </FramerWrapper>
       </div>
