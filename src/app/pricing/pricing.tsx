@@ -63,7 +63,7 @@ const pricing = (props: {
     | undefined;
 }) => {
   return (
-    <div className="lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1gap-3 ">
+   
       <div className="border border-2 gap-4  border-green-600 rounded-lg px-2 py-9">
         <div className="text-4xl font-bold flex justify-center items-center mb-4">
           {" "}
@@ -95,7 +95,6 @@ const pricing = (props: {
           </a>
         </div>
       </div>
-    </div>
   );
 };
 

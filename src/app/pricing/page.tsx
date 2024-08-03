@@ -9,7 +9,7 @@ const ncard =(val: { course: any; price: any; month: any; detail1: any; detail2:
     ); 
   }
   return (
-   <div className="flex flex-row">
+   <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 sm:mt-[90px] mt-[40px] gap-9 grid-wrap">
         {pricingdetail.map(ncard)}
     </div>
   );
