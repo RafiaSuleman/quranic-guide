@@ -13,7 +13,7 @@ const page = () => {
 
   return (
     // ABOUT PAGE
-    <div className="h-full w-full relative flex flex-col items-start gap-5 overflow-hidden">
+    <div className="h-full w-full flex flex-col items-start gap-5 overflow-hidden">
       <Badge className=" gap-2">
         <User2 className="h-5 w-5" />
         About me
