@@ -6,10 +6,9 @@ import FramerWrapper from "./FramerWrapper";
 
 const SocialLinks = () => {
   const links = [
-    { name: "Facebook", link: "https://www.facebook.com/shahina.khatun.1044", icon: <Facebook /> },
-    { name: "Twitter", link: "https://twitter.com/Taquiimam14", icon: <Twitter /> },
-    { name: "Linkedin", link: "https://www.linkedin.com/in/taqui-imam", icon: <Linkedin /> },
-    { name: "External", link: "https://tinyurl.com/MdTaquiImam", icon: <ExternalLink /> },
+    { name: "Facebook", link: "https://www.facebook.com/sheza.siddiqui1", icon: <Facebook /> },
+    { name: "Twitter", link: "", icon: <Twitter /> },
+    { name: "Linkedin", link: "https://www.linkedin.com/in/rafia-khurshid-853510b7/", icon: <Linkedin /> },
   ];
   return (
     <>
@@ -17,7 +16,7 @@ const SocialLinks = () => {
         const timing = 0.55 + indx * 0.125
         
         return (
-          <FramerWrapper key={indx} delay={timing} y={50}>
+          <FramerWrapper key={indx} delay={timing} y={50} className="mt-[-20px]">
 
           <Link  target="blank"
             href={itm.link}

@@ -75,7 +75,7 @@ export default function RootLayout({
       <body className={`${poppins.variable} ${rubik.variable}`}>
         <main
           className={cn(
-            "flex relative screen break-words min-h-screen items-center justify-between pt-14 pb-4 px-40 max-md:p-4 bg-transparent max-sm:pt-20 bg-[url('/4850037.jpg')] bg-cover",
+            "flex relative screen break-words min-h-screen items-center justify-between pt-10 pb-4 px-40 max-md:p-4 bg-transparent max-sm:pt-20 bg-[url('/4850037.jpg')] bg-cover",
             { "bg-white": "#E6E7EB" }
           )}
         >

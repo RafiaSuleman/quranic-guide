@@ -7,11 +7,7 @@ import HackerBtn from './HackerBtn'
 
 function DownLoadResumeBtn() {
   return (
-    <div className="h-fit w-full mt-2 py-2 px-4">
-    {/* <Link href="/" className={cn(buttonVariants({ variant: "default", size:"lg"}))}>
-      <Download className="mx-1" />
-      Download Resume
-    </Link> */}
+    <div className="h-fit mt-[-5px] w-full py-2 px-4">
     <HackerBtn label='Try Free Class' />
   </div>
   )
